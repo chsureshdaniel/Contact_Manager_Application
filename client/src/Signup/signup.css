@@ -1,0 +1,90 @@
+body {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+.signupContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98.7vw;
+    height: 96vh;
+}
+.signupContainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 82vw;
+    height: 67vh;
+    background-color: rgb(219, 241, 255);
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+.forminput {
+    display: block;
+    margin: 20px;
+    padding: 2vh 5.2vw 1.7vh 5.2vw;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.formsubmitinput {
+    display: block;
+    margin: 20px;
+    padding: 9px 10.1vw;
+    background-color: rgb(96, 157, 238);
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.signupContainer h1, p {
+    margin-bottom: 30px;
+}
+
+.signinbutton {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 9px 10.5vw;
+}
+
+.circle {
+position: absolute;
+width: 270px;
+height: 270px;
+left: -45px;
+top: -44px;
+background: #B2DFFF;
+border-radius: 50%
+}
+
+.circle2 {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    left: 85vw;
+    top: 63vh;
+    background: #B2DFFF;
+    transform: rotate(100.53deg);
+    border-radius: 50%;
+    
+
+}
+
+.image {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 76vw;
+    top: 150px;
+    
+}
+
+.image2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 13vw;
+    top: 52vh;
+}
+    
+
